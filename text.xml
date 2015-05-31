@@ -1,9 +1,4 @@
-# taybiz-xml-core
-A collection of XML resources for working with SOAP and RESTful services.
-
-An example error/fault payload that I expect to validate.
-The uriRef is very linked-data/symantic web friendly. It's built to be compatible with Owl and RDF. Use at your discretion.
-```
+<?xml version="1.0" encoding="UTF-8"?>
 <Error xmlns="http://api.taybiz.com/xml/core/1.0">
         <Code>NoSuchKey</Code>
         <Message>The resource you requested does not exist</Message>
@@ -14,4 +9,3 @@ The uriRef is very linked-data/symantic web friendly. It's built to be compatibl
         </Key>
         <RequestId>123</RequestId>
 </Error>
-```
