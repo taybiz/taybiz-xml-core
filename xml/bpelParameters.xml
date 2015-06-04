@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<parameters xmlns="http://schemas.oracle.com/service/bpel/common">
+  <item>
+    <name>rock</name>
+    <value>roll</value>
+  </item>
+  <item>
+    <name>hip</name>
+    <value>hop</value>
+  </item>
+</parameters>
