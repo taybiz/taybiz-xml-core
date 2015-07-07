@@ -30,8 +30,8 @@ THE SOFTWARE.
     <xsd:documentation>A schema for handling "keyed" payloads, XML with errors,
                        faults or other conditions.</xsd:documentation>
   </xsd:annotation>
-  <xsd:element name="Error" type="tbz:stausBlockType"/>
-  <xsd:complexType name="stausBlockType">
+  <xsd:element name="Error" type="tbz:statusBlockType"/>
+  <xsd:complexType name="statusBlockType">
     <xsd:sequence>
       <xsd:element name="Code" type="tbz:nonEmptyString" minOccurs="0"/>
       <xsd:element name="Message" type="tbz:nonEmptyString" minOccurs="0"/>
